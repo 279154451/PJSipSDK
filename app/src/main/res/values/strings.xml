@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CloudRTC</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_call">Call</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="menu_settings">Settings</string>
+    <string name="menu_delete">批量删除</string>
+    <!-- 确定 -->
+    <string name="confirm">确定</string>
+    <!-- 取消 -->
+    <string name="cancle">取消</string>
+    <!-- 向导页面 -->
+    <string name="guid_welcome">欢迎使用VideoChat</string>
+    <string name="guid_tip_one">VideoChat可以让您和其他的VideoChat用户免费通话，视频和收发短信.</string>
+    <string name="guid_tip_two">有点儿像Skype,但不需要您繁琐的添加或查找好友.</string>
+    <string name="guid_tip_three">在VideoChat上，所有人的电话号码就是ID.</string>
+    <string name="guid_tip">VideoChat可以让您和其他VideoChat用户免费通话,视频和收发短信.</string>
+    <string name="btn_continue">继续</string>
+    <!-- 注册 -->
+    <string name="dail_btn">呼叫</string>
+    <string name="tv_title_set">VideoChat设置</string>
+    <string name="regester_btn_back">返回</string>
+    <!-- 访问呢电话薄 Dialog message -->
+    <string name="register_dialog_message">VideoChat需要使用您的电话簿来同步好友列表？</string>
+
+    <!-- 访问呢电话薄 Dialog positive -->
+    <string name="register_dialog_btn_posi">OK</string>
+    <!-- 访问呢电话薄 Dialog again positive -->
+    <string name="register_dialog_again_btn_posi">允许</string>
+    <!-- 访问呢电话薄 Dialog again notive -->
+    <string name="register_dialog_again_btn_noti">不允许</string>
+    <!-- 访问呢电话薄 Dialog notive -->
+    <string name="register_dialog_btn_noti">为何？</string>
+    <string name="regester_tip_one">输入您的手机号码点击继续.</string>
+    <string name="regester_tip_two">验证码将会以短信形式发送给您.</string>
+    <!-- 电话验证 -->
+    <string name="register_tip_two_1">拨打一个免费电话来加入BeeChat.</string>
+    <string name="register_tip_dial_retry">注册失败，是否再次拨打号码进行认证？</string>
+    <!-- 输入电话号码提示 -->
+    <string name="dialog_message_input_phone">请输入您的手机号码</string>
+    <!-- 输入电话号码提示 -->
+    <string name="dialog_message_input_area">请输入国家区号</string>
+    <!-- 访问呢电话薄 Dialog again -->
+    <string name="register_dialog_again_message">VideoChat需要访问您的联系人列表，并使用您的电话号码去发现谁此刻正在使用VideoChat,并与之免费通讯。</string>
+    <string name="complete">完成:</string>
+    <string name="select_picture">选择图片</string>
+
+    <!-- "请选择客户端软件" -->
+    <string name="select_client">请选择客户端软件</string>
+    <string name="dialog_message_logout">您确定要注销账号吗？</string>
+    <string name="dialog_message_fail">注销失败</string>
+    <!-- 服务条款 -->
+    <string name="clause_continue">同意</string>
+    <!-- register sms again str head -->
+    <string name="register_sms_str_head">我们将向</string>
+    <!-- register sms again str tail -->
+    <string name="register_sms_str_tail">发送短信验证码，如果这是您的正确号码，请点击“确定”。</string>
+    
+    <string name="register_callverify_head">您将拨打一个免费电话完成激活，如果</string>
+    <string name="register_callverify_tail">是您的正确号码，请点击“确定”。</string>
+    <!-- 输入验证码 -->
+    <string name="dialog_message_sms_number">请输入验证码！</string>
+    <!-- 验证号码内容 -->
+    <string name="sms_check_title">电话号码验证</string>
+    <!-- 验证号码结果 -->
+    <string name="recever_sms_more">您的注册次数过多，请在24小时后再尝试短信验证方式。</string>
+    <string name="sms_check_result">验证码不匹配</string>
+    <string name="sign_default">我在使用VideoChat!</string>
+    <!-- 对话框 -->
+    <string name="dialog_title"></string>
+    <string name="dialog_confirm"></string>
+    <string name="dialog_cancel"></string>
+    <!-- 短信验证码界面 -->
+    <string name="code_input">短信验证码</string>
+    <string name="code_top_tip">请将收到的短信验证码输入到文本框.</string>
+    <string name="code_bottom_tip">If you don\'t receive the access code within 60 seconds,press the \"No code\"</string>
+    <string name="code_btn_name">进入VideoChat</string>
+    
+    <!-- 消息界面编辑 -->
+    <string name="btn_edit">编辑</string>
+    <string name="btn_clean">清理</string>
+    <string name="btn_select">选择</string>
+    <string name="message">信息</string>
+    <string name="recent">最近</string>
+    <string name="done">完成</string>
+    <string name="contactinfo">联系人信息</string>
+    <string name="shortmsg">短消息</string>
+    <string name="chatfree">免费通话</string>
+    <string name="msgsending">发送中</string>
+    <string name="msgsucess">发送成功</string>
+    <string name="msgfailed">发送失败</string>
+    <string name="msgarrived">送达</string>
+    
+    
+    
+    
+    <!-- 通话记录页面 -->
+    <string name="btn_lose">漏接</string>
+    <string name="btn_all">所有</string>
+    <string name="btn_clear">清空</string>
+    <string name="btn_add">添加</string>
+    <string name="comming">来电</string>
+    <string name="outgoing">去电</string>
+    <!-- 联系人 -->
+    <string name="btn_favorite">收藏夹</string>
+    <string name="btn_freecall">免费电话</string>
+    <string name="btn_freemsg">免费短信</string>
+    <string name="btn_freevideo">视频通话</string>
+    <string name="btn_serecttalk">VideoChat</string>
+    <string name="tv_constact_title">简介</string>
+    <string name="btn_constact_invit">邀请加入VideoChat</string>
+    <string name="btn_constact_add">添加联系人</string>
+    <string name="singature">我正在使用VideoChat</string>
+    <string name="tv_nofriends">尚无好友</string>
+    <string name="btn_nofriends_invite">邀 请</string>
+    <!-- 拨打电话 -->
+    <string name="tv_online">在线</string>
+    <string name="tv_offline">离线</string>
+    <string name="tv_registering">注册中</string>
+    <string name="tv_unregistered">已注销</string> 
+	<string name="tv_register_failure">登录失败</string>
+    <string name="mute">mute</string>
+    <string name="hold">hold</string>
+    <string name="speaker">speaker</string>
+    <string name="togsm">toGSM</string>
+    <string name="keypad">keypad</string>
+    <string name="video">video</string>
+    <string name="callbeholded">呼叫被保持</string>
+    <string name="callhold">呼叫保持</string>
+    <string name="endcall">通话结束</string>
+    <string name="oncalling">正在呼叫&#8230;</string>
+    <string name="newcalling">新来电&#8230;</string>
+    <!-- 拨打 -->
+    <string name="invite">邀请</string>
+    <string name="video_talk">进行视频通话</string>
+    <string name="request_video">邀请您进行视频通话</string>
+    <string name="decline">Decline</string>
+    <string name="answer">Answer</string>
+
+    <!-- 设置页面 -->
+    <string name="tv_title">设置</string>
+    <string name="dialog_clear_records_phone">您确定要清空通话记录吗？</string>
+    <string name="dialog_clear_records_sms">您确定要清空消息记录吗？</string>
+    <string name="dialog_title_address_call_phone">访问电话薄</string>
+    <string name="dialog_msg_address_call_phone">电话本需要做匹配您的好友，是否也在使用VideoChat，以便你和好友可以免费通话和收发文本信息，您确认仍然要关闭吗？</string>
+    <string name="dialog_msg_address_call_phone_other">VideoChat需要使用您的电话薄来同步好友列表。</string>
+    <!-- "VideoChat需要使用您的电话薄来同步好友列表。", -->
+    <!--  -->
+
+    <string name="setting_item_friends">好友加入</string>
+    <string name="setting_item_sms">文本消息预览</string>
+    <string name="setting_item_ring">振铃</string>
+    <string name="setting_item_shock">震动</string>
+    <string name="setting_item_clear_phone">清空通话记录</string>
+    <string name="setting_item_clear_sms">清空消息记录</string>
+    <string name="setting_item_call_phone_book">访问电话薄</string>
+
+    <!-- 国家区号代码 -->
+    <string name="tv_title_country">国家区号</string>
+
+    <!-- 服务条款页面 -->
+    <string name="tv_clause">服务条款</string>
+    <!-- 返回按钮 -->
+    <string name="btn_back">返回</string>
+
+    <!-- loading 页面 -->
+    <string name="loading_text">正在加载&#8230;</string>
+    <!-- 更多 -->
+    <string name="btn_more">更多</string>
+    <string name="tv_title_about">关于</string>
+    <string name="btn_more_edit">编辑</string>
+    <string name="tv_progress_msg">补全个人信息以便找到更多的好友.</string>
+    <string name="tv_invitation">邀请加入VideoChat</string>
+    <string name="tv_private">隐私策略</string>
+    <string name="tv_about_private">VideoChat Privacy Policy</string>
+    <string name="message_custom_dialog">您接下来的操作需要付费，您确定要继续吗？</string>
+    <string name="btn_cancle_more">取消</string>
+    <string name="btn_camplete_more">完成</string>
+    <string name="btn_nocode">No Code</string>
+    <string name="tv_head_msg">编辑</string>
+    <string name="btn_photo">拍照</string>
+    <string name="btn_picture">相册</string>
+    <string name="tv_nofication">状态通知</string>
+    <string name="tv_remind">提醒</string>
+    <string name="tv_clear_history">清空记录</string>
+    <string name="tv_photo_book">访问电话薄</string>
+    <!-- private final String[] aboutArr = { "关于", "设置" }; -->
+    <!-- private final String[] joinArr = { "短信邀请", "邮件邀请", "为VideoChat评分" }; -->
+    <!-- private final String[] privateArr = { "隐私策略", "注销账户" }; -->
+    <string name="more_item_balance">余额</string>
+    <string name="more_item_balance_unit">¥</string>
+    <string name="more_item_about">关于</string>
+    <string name="more_item_set">设置</string>
+    <string name="more_item_sms">短信邀请</string>
+    <string name="more_item_email">邮件邀请</string>
+    <string name="more_item_point">为VideoChat评分</string>
+    <string name="more_item_pp">隐私策略</string>
+    <string name="more_item_logout">注销账户</string>
+    <!-- 拨号界面加载更多 -->
+    <string name="load_more">加载更多</string>
+    <string name="no_more">没有更多数据</string>
+    <!-- 对话框 -->
+    <string name="dialog_content">请稍候......</string>
+    <string name="clear">确定要清空通话记录么?</string>
+    <!-- 轻触选择联系人 -->
+    <string name="select_title">轻触选择联系人</string>
+    <!-- 请求错误码 -->
+    <string name="norep">注册无响应</string>
+    <string name="regsucss">注册成功</string>
+    <string name="nocard">未认证</string>
+    <string name="wrongnp">账户或密码错误</string>
+    <string name="noexist">账户不存在</string>
+    <string name="proxynocard">代理服务器认证失败</string>
+    <string name="notallowreg">不允许注册</string>
+    <string name="doing">正在处理</string>
+    <string name="sucss">注销成功</string>
+    <string name="netnouse">网络不可用</string>
+    <!-- sdcard 未找到 -->
+    <string name="nosdcard">sd卡未找到，或异常</string>
+    <string name="def_singtrue">我正在使用VideoChat</string>
+    <!-- 访问呢电话薄 Dialog title -->
+    <string name="register_dialog_title">访问电话薄</string>
+
+    <!-- 接受验证短信 dialog title -->
+    <string name="dialog_smsmessage_title">温馨提示</string>
+
+    <!-- 接受验证短信 dialog msg -->
+    <string name="dialog_smsmessage_msg">如果您不更改注册号码，点击返回需等待24小时以后才能重新注册。确认返回么？</string>
+
+    <!-- 接受验证短信 dialog msg -->
+    <string name="dialog_smsmessage_back_msg">如果您未收到验证码，可以拨打 0345788818 通过语音提示获取验证码！是否拨打?</string>
+
+    <!-- 电话号码验证 -->
+    <string name="dialog_tel_message_back_msg">电话号码验证</string>
+
+    <!-- 短信获取失败  提示 -->
+    <string name="recever_sms_fail">获取验证码失败，请重试！</string>
+    <!-- 短信获取失败  提示 -->
+    <string name="recever_sms_fail_try">超过当日最多注册次数！</string>
+
+    <!-- 加载提示 -->
+    <string name="loading_sataus_dealing">正在加载&#8230;</string>
+    <!-- "数据加载失败，请重试！" -->
+    <string name="loading_sataus_fail">数据加载失败，请重试！</string>
+    
+    <string name="recent_title">话单</string>
+    <string name="message_title">消息</string>
+	<string name="call_ticket_title">话单</string>
+	<string name="contact_title">联系人</string>
+	<string name="phone_title">拨号</string>
+	<string name="more_title">更多</string>
+
+    <string name="message_search">查找</string>
+   <string name="call_network_quality_smooth">网络质量优良</string>
+     <string name="call_network_quality_normal">网络质量一般</string>
+      <string name="call_network_quality_bad">网络质量较差</string>
+    <string name="call_result_data_wrong">数据有误!</string>	 
+    <string name="call_result_wrong_req">错误的呼叫请求!</string>	
+    <string name="call_result_auth_wrong">认证密码有误!</string>
+    <string name="call_result_noallow_call">不允许呼叫!</string>
+    <string name="call_result_proserver_fail">服务器认证失败!</string>
+    <string name="call_result_time_out">请求超时!</string>
+    <string name="call_result_noexist_regist">被叫不存在!</string>
+    <string name="call_result_nosupport_media">媒体流不被支持!</string>
+    <string name="call_result_busy">被叫忙!</string>
+    <string name="call_result_not_conned">被叫暂时无法接通!</string>
+    <string name="call_result_reqterminated">请求被终止!</string>
+    <string name="call_result_internal_error">服务器内部错误!</string>
+    <string name="call_result_disturb">请勿打扰!</string>
+    <string name="call_result_other_line">对方挂线!</string>
+    
+    <string name="call_mute">静音</string>
+    <string name="call_hold">保持</string>
+    <string name="call_speaker">免提</string>
+    <string name="call_gsm">GSM呼叫</string>
+    <string name="call_keypad">键盘</string>
+    <string name="call_video">视频</string>
+    <string name="call_ringing">振铃</string>
+    <string name="call_early_media">彩铃</string>
+    
+    <string name="call_msg">通话</string>
+    <string name="call_out">外拨电话</string>
+    <string name="call_failed">呼叫失败</string>
+    <string name="call_cancel">呼叫取消</string>
+    <string name="call_coming">来电</string>
+    <string name="call_missed">未接电话</string>
+    
+    <string name="time_duration">时长</string>
+    <string name="dl_title">提示</string>
+    <string name="sms_invitation">"hi，试试VideoChat免费电话吧，这是一个免费应用程序，你可以用它免费打电话，发短信，视频聊天。www.meetplus.cc/dl/"</string>
+    
+    <string name="email_theme">欢迎加入VideoChat!</string>
+    
+    <string name="a_while_ago">不久前</string>
+    <string name="date_yesterday">昨天</string>
+    <string name="date_today">今天</string>
+    <string name="monday">星期一</string>
+    <string name="tuesday">星期二</string>
+    <string name="wednesday">星期三</string>
+    <string name="thursday">星期四</string>
+    <string name="friday">星期五</string>
+    <string name="saturday">星期六</string>
+    <string name="sunday">星期日</string>
+    <string name="noemptyname">名字不能为空!</string>
+    <string name="modify_s">个人资料修改成功!</string>
+    <string name="modify_f">个人资料修改失败!</string>
+    <string name="incall">通话中</string>
+ 
+    
+	<string name="video_hungup">结束通话</string>
+    <string name="call">呼叫</string>
+    <string name="videoCall">视频呼叫</string>
+    
+    <string name="force_update_info">为了给您提供更好的服务，建议您更新后再继续使用MEET。</string>
+    <string name="accept_video">视频接听</string>
+    <string name="accept_voice">语音接听</string>
+
+</resources>

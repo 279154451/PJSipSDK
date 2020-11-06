@@ -1,0 +1,142 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="SIP 账户" >
+        <EditTextPreference
+            android:key="sip_account_username"
+            android:title="用户名" />
+        <EditTextPreference
+            android:key="sip_account_password"
+            android:title="密码" />
+        <EditTextPreference
+            android:key="sip_account_domain"
+            android:defaultValue="112.74.26.202"
+            android:title="服务器" />
+        <EditTextPreference
+            android:key="sip_account_displayname"
+            android:title="显示名" />
+
+        <ListPreference  
+            android:dialogTitle="传输方式"  
+            android:entries="@array/entries_transport_list"  
+            android:entryValues="@array/entryvalues_transport_list"  
+            android:key="sip_account_transport"  
+            android:summary=""  
+            android:title="传输" /> 
+           
+    </PreferenceCategory>
+    <PreferenceCategory android:title="高级设置" >
+        <CheckBoxPreference
+                android:key="sip_account_enable_video"
+                android:defaultValue="true"
+                android:title="开启视频" />
+        <CheckBoxPreference
+                android:key="sip_account_enable_survellance"
+                android:defaultValue="false"
+                android:title="监控" />
+        <CheckBoxPreference
+                android:key="sip_account_enable_autoanswer"
+                android:defaultValue="false"
+                android:title="自动接听" />
+        <PreferenceScreen
+            android:key="screen_preference_network"
+            android:title="网络" >
+			<EditTextPreference
+                android:key="sip_account_stun_server"
+                android:defaultValue="120.25.211.29"
+                android:title="Stun Server" />
+			<CheckBoxPreference
+                android:key="sip_account_use_ice_mode"
+                android:summary="Use turn relay"
+                android:title="ICE" 
+                android:defaultValue="false"/>
+            <EditTextPreference
+                android:key="sip_account_turn_user"
+                android:dependency="sip_account_use_ice_mode"
+                android:defaultValue="700"
+                android:title="Turn User" />
+            <EditTextPreference
+                android:key="sip_account_turn_password"
+                android:dependency="sip_account_use_ice_mode"
+                android:defaultValue="700"
+                android:title="Turn Password" />
+            <EditTextPreference
+                android:key="sip_account_turn_server"
+                android:dependency="sip_account_use_ice_mode"
+                android:defaultValue="120.25.211.29"
+                android:title="Turn Server" />
+        </PreferenceScreen>
+        <!-- This PreferenceScreen tag serves as a screen break (similar to page break in word processing). Like for other preference types, we assign a key here so it is able to save and restore its instance state. -->
+        <PreferenceScreen
+            android:key="screen_preference_audio"
+            android:title="音频" >
+            <PreferenceCategory android:title="Audio Processing" >
+                <CheckBoxPreference
+                android:key="audio_aecm"
+                android:defaultValue="true"
+                android:summary="Acoustic Echo Cancellation For Mobile"
+                android:title="AECM" />
+                <CheckBoxPreference
+                android:key="audio_aec"
+                android:defaultValue="false"
+                android:summary="Acoustic Echo Cancellation"
+                android:title="AEC" />
+                <CheckBoxPreference
+                android:key="audio_agc"
+                android:defaultValue="true"
+                android:summary="Automatic Gain Control"
+                android:title="AGC" />
+                <CheckBoxPreference
+                android:key="audio_ns"
+                android:defaultValue="true"
+                android:summary="Noise Suppression"
+                android:title="NS" />
+            </PreferenceCategory>
+            <PreferenceCategory android:title="Audio Codecs" >
+                <CheckBoxPreference
+                android:key="audio_codecs_opus"
+                android:defaultValue="true"
+                android:summary="16khz"
+                android:title="Opus" />
+                <CheckBoxPreference
+                android:key="audio_codecs_isac"
+                android:defaultValue="true"
+                android:summary="16khz"
+                android:title="iSAC" />             
+                <CheckBoxPreference
+                android:key="audio_codecs_pcma"
+                android:defaultValue="true"
+                android:summary="8khz"
+                android:title="PCMA" />
+                <CheckBoxPreference
+                android:key="audio_codecs_pcmu"
+                android:defaultValue="true"
+                android:summary="8khz"
+                android:title="PCMU" />
+            </PreferenceCategory>
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:key="screen_preference_video"
+            android:title="视频" >
+		<PreferenceCategory android:title="视频设置" >
+          <ListPreference  
+            android:dialogTitle="Select Video Size"  
+            android:entries="@array/entries_video_size_list"  
+            android:entryValues="@array/entryvalues_video_size_list"  
+            android:key="sip_account_video_size"
+            android:summary="CIF(352x288)"  
+            android:title="Video Size" 
+            android:defaultValue="0" /> 
+         </PreferenceCategory>
+		<PreferenceCategory android:title="Video Codecs" >
+                <CheckBoxPreference
+                android:key="video_codecs_h264"
+                android:defaultValue="true"
+                android:title="H264" />   
+                 <CheckBoxPreference
+                android:key="video_codecs_h264HW"
+                android:defaultValue="false"
+                android:title="H264HW" />             
+         </PreferenceCategory>
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>    
+<resources>
+<string-array name="entries_transport_list">
+<item>UDP</item>
+<item>TCP</item>
+<item>TLS</item>
+</string-array>
+<string-array name="entryvalues_transport_list">
+<item>udp</item>
+<item>tcp</item>
+<item>tls</item>
+</string-array>
+
+<string-array name="entries_video_size_list">
+<item>CFI(352x288)</item>
+<item>VGA(640x480)</item>
+<item>HD(1280x720)</item>
+</string-array>
+<string-array name="entryvalues_video_size_list">
+<item>cif</item>
+<item>vga</item>
+<item>hd</item>
+</string-array>
+</resources>

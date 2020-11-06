@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pressed_color">#B8F2F5</color>
+    <color name="default_color">#E8FEFF</color>
+    
+     <color name="white">#ffffff</color>
+    <color name="gray">#949494</color>
+    <color name="darkgray">#5b5b5b</color>
+    <color name="lightgray">#7c7c7c</color>
+    <color name="fontgray">#a0a0a0</color>
+    <color name="chat_room">#6c6c6c</color>
+    <!-- 蓝色 -->
+    <color name="blue">#0089d7</color>
+    <color name="blue_1">#aac1d9</color>
+    <color name="red">#ee3030</color>
+    <color name="black">#000000</color>
+    <color name="translate">#00000000</color>
+    
+    <drawable name="dblue">#0089d7</drawable> 
+    <drawable name="dblack">#000000</drawable> 
+    
+    <drawable name="v_press">#2d2d2d</drawable> 
+    <drawable name="v_normal">#373737</drawable> 
+    <drawable name="v_divide">#404040</drawable>
+    <drawable name="translate">#00000000</drawable>
+    
+    <color name="unread">#ecfbed</color>
+
+    <color name="colorPrimary">#526EFF</color>
+    <color name="colorPrimaryDark">#526EFF</color>
+    <color name="flag_color_FFFFFF_40p">#66FFFFFF</color>
+    <color name="flag_color_D14836">#D14836</color>
+</resources>
